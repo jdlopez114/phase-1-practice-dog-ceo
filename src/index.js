@@ -4,6 +4,8 @@ console.log("%c HI", "color: firebrick");
 
 document.addEventListener('DOMContentLoaded', function(){
 
+    //writing comments to test git
+
     let dogUl = document.querySelector('#dog-breeds');
 
     //Challenge 1
@@ -83,4 +85,5 @@ function makeFetchHappen(){ //returns promise
     return fetch('https://dog.ceo/api/breeds/list/all')
             .then(response => response.json())
 }
+
 
